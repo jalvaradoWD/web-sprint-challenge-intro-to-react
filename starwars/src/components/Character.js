@@ -38,15 +38,15 @@ const Character = () => {
               <CharacterCardStyle>
                 <h2 className="name">{name}</h2>
                 <PhysicalInfoStyles>
-                  <p className="height">{height}</p>
-                  <p className="mass">{mass}</p>
-                  <p className="hairColor">{hair_color}</p>
-                  <p className="skinColor">{skin_color}</p>
-                  <p className="eyeColor">{eye_color}</p>
+                  <p>Height: {height} cm</p>
+                  <p>Mass: {mass} kg</p>
+                  <p>Hair Color: {hair_color}</p>
+                  <p>Skin Color: {skin_color}</p>
+                  <p>Eye Color: {eye_color}</p>
                 </PhysicalInfoStyles>
                 <OtherInfoStyles>
-                  <p className="birth_year">{birth_year}</p>
-                  <p className="gender">{gender}</p>
+                  <p>Birth Year: {birth_year}</p>
+                  <p>Gender: {gender}</p>
                 </OtherInfoStyles>
               </CharacterCardStyle>
             );
