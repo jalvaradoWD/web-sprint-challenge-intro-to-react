@@ -6,7 +6,8 @@ export const CharacterCardStyle = styled.div`
     margin: 0;
   }
   background-color: white;
-  border: 2px solid black;
+  border: 5px solid black;
+  border-radius: 5px;
 
   width: 40rem;
   margin: 0 auto;
@@ -48,6 +49,9 @@ export const OtherInfoStyles = styled.div`
 
 export const CharactersContainerStyle = styled.div`
   display: flex;
-  flex-direction: column;
   row-gap: 1rem;
+  flex-flow: wrap;
+  justify-content: space-around;
+
+  margin: 5rem 0;
 `;
